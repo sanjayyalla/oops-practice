@@ -11,17 +11,8 @@ public abstract class AbstractFee implements Fee {
     public double getTuitionFee() {
         return tuitionFee;
     }
-
-    public void setTuitionFee(double tuitionFee) {
-        this.tuitionFee = tuitionFee;
-    }
-
     public double getAdditionalCharges() {
         return additionalCharges;
-    }
-
-    public void setAdditionalCharges(double additionalCharges) {
-        this.additionalCharges = additionalCharges;
     }
     @Override
     public void displayFeeDetails(Student s) {
